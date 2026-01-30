@@ -1,12 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "PersonaAI Docs",
+  "name": "VibePersona Docs",
   "logo": {
-    "light": "https://theoutlier.mintlify.app/mintlify-assets/logo-light.png",
-    "dark": "https://theoutlier.mintlify.app/mintlify-assets/logo-light.png"
+    "light": "/images/浅色icon无透明1024.png",
+    "dark": "/images/深色icon无透明1024.png",
+    "href": "https://vibepersona.top"
   },
-  "favicon": "https://theoutlier.mintlify.app/mintlify-assets/favicon.png",
+  "favicon": "/images/浅色icon无透明1024.png",
   "colors": {
     "primary": "#0f172a",
     "light": "#f8fafc",

@@ -3,11 +3,11 @@
   "theme": "mint",
   "name": "VibePersona Docs",
   "logo": {
-    "light": "/images/浅色icon无透明1024.png",
-    "dark": "/images/深色icon无透明1024.png",
+    "light": "/images/logo-light-icon.png",
+    "dark": "/images/logo-light-icon.png",
     "href": "https://vibepersona.top"
   },
-  "favicon": "/images/浅色icon无透明1024.png",
+  "favicon": "/images/logo-light-icon.png",
   "colors": {
     "primary": "#0f172a",
     "light": "#f8fafc",

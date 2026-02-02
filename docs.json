@@ -26,13 +26,17 @@
         }
       ]
     },
-    "tabs": [
+    "languages": [
       {
-        "tab": "Docs",
+        "language": "en",
+        "default": true,
         "groups": [
           {
             "group": "Getting Started",
-            "pages": ["index", "billing-credits"]
+            "pages": [
+              "index",
+              "billing-credits"
+            ]
           }
         ]
       }

@@ -1,0 +1,78 @@
+---
+title: "計費與 Credits"
+description: "Credits 定義、會員方案、模型與 Auto-reply 扣費標準"
+---
+
+# 計費與 Credits
+
+## 1. Credits 是什麼？
+
+Credits 可以理解為「大模型呼叫額度」。所有在 Chatbox 中對話、生成內容、呼叫模型的行為，都會依照實際使用的 tokens 從 Credits 中扣除。
+
+- 輸入 tokens：你送給模型的內容（包含最近對話上下文）
+- 輸出 tokens：模型回傳給你的內容
+- 每一次對話的總消耗 = 輸入 tokens + 輸出 tokens
+
+## 2. 會員與每月可用 Credits
+
+你可以在定價頁或 Billing 頁面中購買或切換會員。不同會員方案每月包含的 Credits 如下：
+
+| 方案 | 價格 | 每月 Credits |
+| --- | --- | --- |
+| Hobby（按月） | $40 / 月 | 500 |
+| Professional（按月） | $200 / 月 | 2000 |
+| Hobby（年付） | $400 / 年 | 500（每月發放） |
+| Professional（年付） | $2000 / 年 | 2000（每月發放） |
+
+方案能力概覽（與產品頁一致）：
+
+- Hobby：最多建立 5 個 personas、基礎營運建議、行事曆與提醒、Auto-reply workflows、優質內容發現與改寫、5GB 儲存（單檔上限 50MB）
+- Professional：不限 personas、專業營運建議、行事曆與提醒、Auto-reply workflows、優質內容發現與改寫、50GB 儲存（單檔上限 200MB）
+
+## 3. Chatbox 中不同模型的 Credits 扣費標準
+
+我們會根據你選擇的模型，對「本輪對話產生的總 tokens 數」依不同單價折算為 Credits：
+
+- 以每 1,000 tokens 為計費單位（不足 1,000 依比例計算）。
+- 總 tokens = 輸入 tokens + 輸出 tokens。
+- 不同模型有不同的每 1,000 tokens 消耗標準。
+
+| 模型 | Credits / 1,000 tokens | 說明 |
+| --- | --- | --- |
+| PersonaAI（Gemini 3.0 Pro） | 0.9 | 進階推理與創作模型，適合內容生產、深度分析等場景。 |
+| Nanobanana / GPT5.2 / Gemini3.0 Pro / Minimax M2 / Kimi0905 | 0.45 | 高性價比通用模型組合，適合日常問答、創意輔助、營運建議。 |
+
+## 4. Auto-reply 扣費標準
+
+Auto-reply 的扣費由「貼文拉取」與「生成回覆」兩部分組成：
+
+- 貼文拉取：0.1 credit / 次
+- 一般回覆：0.5 credit / 條
+- 帶 meme 的回覆：在一般回覆基礎上，每條額外 +2 credits
+
+## 5. 實際扣費示例
+
+示例 A：在 Chatbox 中使用 PersonaAI（Gemini 3.0 Pro）進行一次典型對話：
+
+- 你送出的問題與上下文合計約 500 tokens
+- 模型回覆內容約 800 tokens
+- 本輪總 tokens ≈ 1,300 tokens
+
+本輪大約扣除：
+
+**1,300 ÷ 1,000 × 0.9 ≈ 1.17 Credits**
+
+示例 B：Auto-reply 生成 1 條一般回覆（並拉取 1 次貼文）：
+
+**0.1 + 0.5 = 0.6 credits**
+
+示例 C：Auto-reply 生成 1 條帶 meme 的回覆（並拉取 1 次貼文）：
+
+**0.1 + 0.5 + 2 = 2.6 credits**
+
+## 6. 查看用量與歷史
+
+你可以在應用內隨時查看 Credits 餘額和詳細的使用記錄：
+
+- 登入後，進入右上角頭像選單中的 Settings。
+- 切換到「Usage History」標籤頁，查看扣費記錄與 Credits 變化。

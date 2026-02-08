@@ -1,0 +1,77 @@
+---
+title: "Billing & Credits"
+description: "Credits definition, plans, model rates, and Auto-reply pricing"
+---
+
+# Billing & Credits
+
+## 1. What are Credits?
+
+Credits represent your LLM usage quota. Any Chatbox chat, content generation, or model call will deduct Credits based on the tokens used.
+
+- Input tokens: what you send to the model (including recent context)
+- Output tokens: what the model returns
+- Total per round = input tokens + output tokens
+
+## 2. Plans & Monthly Credits
+
+You can purchase or switch plans from the pricing page or the Billing page. Monthly Credits included:
+
+| Plan | Price | Credits / month |
+| --- | --- | --- |
+| Hobby (Monthly) | $40 / month | 500 |
+| Professional (Monthly) | $200 / month | 2000 |
+| Hobby (Yearly) | $400 / year | 500 (issued monthly) |
+| Professional (Yearly) | $2000 / year | 2000 (issued monthly) |
+
+Plan highlights (aligned with the product page):
+
+- Hobby: up to 5 personas, basic operation advice, calendar & reminders, auto-reply workflows, post discovery & remixing, 5GB storage (50MB max per file)
+- Professional: unlimited personas, professional operation advice, calendar & reminders, auto-reply workflows, post discovery & remixing, 50GB storage (200MB max per file)
+
+## 3. Credits rates for Chatbox models
+
+We convert the total tokens in a round into Credits using model-specific rates:
+
+- Billed per 1,000 tokens (prorated if under 1,000).
+- Total tokens = input tokens + output tokens.
+
+| Model | Credits / 1,000 tokens | Notes |
+| --- | --- | --- |
+| PersonaAI (Gemini 3.0 Pro) | 0.9 | Advanced reasoning and writing; best for deep analysis and content creation. |
+| Nanobanana / GPT5.2 / Gemini3.0 Pro / Minimax M2 / Kimi0905 | 0.45 | Cost-effective general models for daily Q&A and marketing assistance. |
+
+## 4. Auto-reply pricing
+
+Auto-reply costs include post fetching and reply generation:
+
+- Post fetch: 0.1 credit per fetch
+- Standard reply: 0.5 credit per reply
+- Meme reply: +2 credits on top of the standard reply, per reply
+
+## 5. Examples
+
+Example A: a typical Chatbox round with PersonaAI (Gemini 3.0 Pro):
+
+- Input ~500 tokens
+- Output ~800 tokens
+- Total ≈ 1,300 tokens
+
+Estimated cost:
+
+**1,300 ÷ 1,000 × 0.9 ≈ 1.17 Credits**
+
+Example B: Auto-reply generates 1 standard reply (with 1 post fetch):
+
+**0.1 + 0.5 = 0.6 credits**
+
+Example C: Auto-reply generates 1 meme reply (with 1 post fetch):
+
+**0.1 + 0.5 + 2 = 2.6 credits**
+
+## 6. Usage & History
+
+You can view Credits balance and detailed usage records in the app:
+
+- Go to Settings from the avatar menu.
+- Open “Usage History” to see deductions and balance changes.

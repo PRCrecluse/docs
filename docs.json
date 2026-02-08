@@ -5,7 +5,7 @@
   "logo": {
     "light": "/images/logo-light-icon.png",
     "dark": "/images/logo-light-icon.png",
-    "href": "https://vibepersona.top"
+    "href": "https://vibepersona.top/doc"
   },
   "favicon": "/images/logo-light-icon.png",
   "colors": {
@@ -14,27 +14,26 @@
     "dark": "#0b0f19"
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Privacy Policy",
-          "href": "https://vibepersona.top/privacy"
-        },
-        {
-          "anchor": "Terms of Service",
-          "href": "https://vibepersona.top/terms"
-        }
-      ]
-    },
     "languages": [
       {
-        "language": "en",
+        "language": "cn",
         "default": true,
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Quick-start",
             "pages": [
-              "index",
+              "quickstart",
+              "billing-credits"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Quick-start",
+            "pages": [
               "quickstart",
               "billing-credits"
             ]
@@ -42,5 +41,8 @@
         ]
       }
     ]
+  },
+  "styling": {
+    "eyebrows": "section"
   }
 }

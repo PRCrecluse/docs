@@ -25,6 +25,20 @@
               "cn/quickstart",
               "cn/billing-credits"
             ]
+          },
+          {
+            "group": "安全与合规",
+            "pages": [
+              "cn/compliance",
+              "cn/account-security"
+            ]
+          },
+          {
+            "group": "功能指南",
+            "pages": [
+              "cn/account-growth",
+              "cn/viral-library"
+            ]
           }
         ]
       },
@@ -36,6 +50,20 @@
             "pages": [
               "en/quickstart",
               "en/billing-credits"
+            ]
+          },
+          {
+            "group": "Safety & Compliance",
+            "pages": [
+              "en/compliance",
+              "en/account-security"
+            ]
+          },
+          {
+            "group": "Feature Guide",
+            "pages": [
+              "en/account-growth",
+              "en/viral-library"
             ]
           }
         ]
@@ -49,6 +77,20 @@
               "es/quickstart",
               "es/billing-credits"
             ]
+          },
+          {
+            "group": "Seguridad y Cumplimiento",
+            "pages": [
+              "es/compliance",
+              "es/account-security"
+            ]
+          },
+          {
+            "group": "Guía de Funciones",
+            "pages": [
+              "es/account-growth",
+              "es/viral-library"
+            ]
           }
         ]
       },
@@ -60,6 +102,20 @@
             "pages": [
               "zh-Hant/quickstart",
               "zh-Hant/billing-credits"
+            ]
+          },
+          {
+            "group": "安全與合規",
+            "pages": [
+              "zh-Hant/compliance",
+              "zh-Hant/account-security"
+            ]
+          },
+          {
+            "group": "功能指南",
+            "pages": [
+              "zh-Hant/account-growth",
+              "zh-Hant/viral-library"
             ]
           }
         ]

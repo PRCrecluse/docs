@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "VibePersona Docs",
+  "name": "VolumnAI Docs",
   "logo": {
     "light": "/images/logo-light-icon.png",
     "dark": "/images/logo-light-icon.png",
-    "href": "https://vibepersona.top/doc"
+    "href": "https://volumnai.top/doc"
   },
   "favicon": "/images/logo-light-icon.png",
   "colors": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "VolumnAI Docs",
+  "name": "Volumn.ai Docs",
   "logo": {
     "light": "/images/logo-light-icon.png",
     "dark": "/images/logo-light-icon.png",

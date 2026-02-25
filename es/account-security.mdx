@@ -21,3 +21,11 @@ A excepción de ViralLibrary (una base de datos de tweets que no implica operaci
 1. Prohibimos estrictamente el abuso de cuentas. No use nuestra plataforma para que varios usuarios operen la misma cuenta de X al mismo tiempo, y no recomendamos enviar grandes volúmenes de contenido basura en un solo día. Nuestra plataforma no ofrece ninguna función de publicación masiva de posts. Si su cuenta es suspendida por conductas que violen las políticas de X, no asumimos ninguna responsabilidad.
 
 2. Cumplimos estrictamente con las políticas de X y prohibimos cualquier actividad ilegal o contenido sensible/prohibido que se publique a través de nuestra plataforma. Si se detecta, suspenderemos la cuenta relacionada y usted asumirá todas las consecuencias.
+
+## 4. Límites de envío de AutoDM (Rate Limit)
+
+- Basado en los límites de DM por usuario de la API de X (15 mensajes / 15 minutos, 1.440 mensajes / 24 horas), aplicamos una limitación más conservadora dentro del producto.
+- Política efectiva en Volumn.ai:
+  - Intervalo mínimo: **1 minuto por DM** para cada cuenta de usuario;
+  - Tope diario: **200 DMs por cada 24 horas** para cada cuenta de usuario.
+- Si se alcanza un límite, la tarea no se pierde. Se reprograma y continúa en el siguiente momento permitido.

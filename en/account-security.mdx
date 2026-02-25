@@ -21,3 +21,11 @@ Except for the ViralLibrary (a tweet database that does not involve critical acc
 1. We strictly prohibit account abuse. Do not use our platform to let multiple users operate the same X account at the same time, and we do not encourage sending large volumes of spam content in a single day. Our platform does not provide any bulk post publishing functionality. If your account is suspended due to behavior that violates X policies, we assume no responsibility.
 
 2. We strictly follow X policies and prohibit any illegal activity or sensitive/forbidden content from being published through our platform. If detected, we will suspend the related account and you will bear all consequences.
+
+## 4. AutoDM Sending Limits (Rate Limit)
+
+- Based on X API user-level DM limits (15 messages / 15 minutes, 1,440 messages / 24 hours), we apply a stricter in-product throttle.
+- Effective policy in Volumn.ai:
+  - Minimum interval: **1 minute per DM** for each user account;
+  - Daily cap: **200 DMs per 24 hours** for each user account.
+- If a limit is hit, the task is not dropped. It will be rescheduled and continue at the next allowed time.

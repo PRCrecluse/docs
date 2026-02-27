@@ -23,7 +23,8 @@
             "group": "快速开始",
             "pages": [
               "cn/quickstart",
-              "cn/billing-credits"
+              "cn/billing-credits",
+              "cn/feature-pricing"
             ]
           },
           {
@@ -37,7 +38,8 @@
             "group": "功能指南",
             "pages": [
               "cn/account-growth",
-              "cn/viral-library"
+              "cn/viral-library",
+              "cn/salesbot-manual"
             ]
           }
         ]
@@ -49,7 +51,8 @@
             "group": "Quick-start",
             "pages": [
               "en/quickstart",
-              "en/billing-credits"
+              "en/billing-credits",
+              "en/feature-pricing"
             ]
           },
           {
@@ -63,7 +66,8 @@
             "group": "Feature Guide",
             "pages": [
               "en/account-growth",
-              "en/viral-library"
+              "en/viral-library",
+              "en/salesbot-manual"
             ]
           }
         ]
@@ -75,7 +79,8 @@
             "group": "Inicio rápido",
             "pages": [
               "es/quickstart",
-              "es/billing-credits"
+              "es/billing-credits",
+              "es/feature-pricing"
             ]
           },
           {
@@ -89,7 +94,8 @@
             "group": "Guía de Funciones",
             "pages": [
               "es/account-growth",
-              "es/viral-library"
+              "es/viral-library",
+              "es/salesbot-manual"
             ]
           }
         ]
@@ -101,7 +107,8 @@
             "group": "快速開始",
             "pages": [
               "zh-Hant/quickstart",
-              "zh-Hant/billing-credits"
+              "zh-Hant/billing-credits",
+              "zh-Hant/feature-pricing"
             ]
           },
           {
@@ -115,7 +122,8 @@
             "group": "功能指南",
             "pages": [
               "zh-Hant/account-growth",
-              "zh-Hant/viral-library"
+              "zh-Hant/viral-library",
+              "zh-Hant/salesbot-manual"
             ]
           }
         ]

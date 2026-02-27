@@ -1,0 +1,41 @@
+---
+title: "SalesBot Manual"
+description: "SalesBot workflow, reach/follow-up definitions, and metric explanations"
+---
+
+# SalesBot Manual
+
+SalesBot helps you run structured multi-round DM outreach and follow-ups based on your customer lists.
+
+## 1. Core Workflow
+
+1. Select a customer list and create a task.
+2. Round 1 is sent as outreach.
+3. After the target replies, the user becomes eligible for Round 2.
+4. After Round 2 is sent, the user is counted as followed up.
+
+## 2. Reach / Follow-up Definitions
+
+- The **first round** is called **customer outreach**.
+- A user is marked as:
+  - **Reached**
+  - **Needs follow-up**
+  only after they reply to our first-round message.
+- The **second round** is called **follow-up**.
+  - A user is marked as **Followed up** only after we send the second-round reply.
+
+## 3. Metric Definitions
+
+- **Current task replies**: list size of the current task (target users for outreach).
+- **Current task reached**: deduplicated users in the current task who were sent successfully.
+- **Follow-ups**: users who entered and completed the follow-up stage in the current task.
+- **Total reached / Total follow-ups**: cumulative stats across all tasks under the account.
+
+## 4. DM Limits
+
+To protect account safety and comply with platform limits, SalesBot and AutoDM share these rules:
+
+- Maximum 1 DM per minute;
+- Maximum 200 DMs per 24 hours.
+
+If a limit is hit, tasks are automatically deferred. We are not liable for account restrictions caused by abuse.

@@ -1,0 +1,41 @@
+---
+title: "Manual de SalesBot"
+description: "Flujo de tareas, definiciones de alcance/seguimiento y métricas clave"
+---
+
+# Manual de SalesBot
+
+SalesBot le ayuda a ejecutar alcance y seguimiento por DM en varias rondas, basado en sus listas de clientes.
+
+## 1. Flujo básico
+
+1. Seleccione una lista de clientes y cree una tarea.
+2. La Ronda 1 se envía como contacto inicial.
+3. Cuando el usuario responde, queda habilitado para la Ronda 2.
+4. Cuando se envía la Ronda 2, el usuario se considera con seguimiento.
+
+## 2. Definiciones de Alcance / Seguimiento
+
+- La **primera ronda** se denomina **contacto inicial**.
+- Un usuario se marca como:
+  - **Alcanzado**
+  - **Requiere seguimiento**
+  solo cuando responde a nuestro mensaje de primera ronda.
+- La **segunda ronda** se denomina **seguimiento**.
+  - Un usuario se marca como **Con seguimiento** solo después de que enviamos la respuesta de segunda ronda.
+
+## 3. Definiciones de métricas
+
+- **Respuestas de la tarea actual**: tamaño de la lista de la tarea actual (usuarios objetivo para contacto).
+- **Alcanzados en la tarea actual**: usuarios únicos de la tarea actual a quienes se envió DM con éxito.
+- **Seguimientos**: usuarios que entraron y completaron la etapa de seguimiento en la tarea actual.
+- **Total alcanzados / Total seguimientos**: acumulado de todas las tareas de la cuenta.
+
+## 4. Límites de envío
+
+Para proteger la seguridad de la cuenta y cumplir límites de la plataforma, SalesBot y AutoDM comparten estas reglas:
+
+- Máximo 1 DM por minuto;
+- Máximo 200 DMs por 24 horas.
+
+Si se alcanza un límite, la tarea se aplaza automáticamente. No asumimos responsabilidad por restricciones de cuenta causadas por abuso.

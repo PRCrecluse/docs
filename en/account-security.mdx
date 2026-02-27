@@ -22,10 +22,12 @@ Except for the ViralLibrary (a tweet database that does not involve critical acc
 
 2. We strictly follow X policies and prohibit any illegal activity or sensitive/forbidden content from being published through our platform. If detected, we will suspend the related account and you will bear all consequences.
 
-## 4. AutoDM Sending Limits (Rate Limit)
+## 4. DM Sending Limits (Rate Limit)
 
+- The following limits apply to both **SalesBot** and **AutoDM**.
 - Based on X API user-level DM limits (15 messages / 15 minutes, 1,440 messages / 24 hours), we apply a stricter in-product throttle.
 - Effective policy in Volumn.ai:
   - Minimum interval: **1 minute per DM** for each user account;
   - Daily cap: **200 DMs per 24 hours** for each user account.
 - If a limit is hit, the task is not dropped. It will be rescheduled and continue at the next allowed time.
+- We have implemented the necessary safety protections. However, if account restrictions or bans occur due to abuse (e.g., harassment/spam violations), we assume no responsibility.

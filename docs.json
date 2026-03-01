@@ -10,7 +10,7 @@
   "favicon": "/images/logo-light-icon.png",
   "colors": {
     "primary": "#1f62fd",
-    "light": "#f1f5fa",
+    "light": "#ffffff",
     "dark": "#2a3763"
   },
   "navigation": {
@@ -144,7 +144,7 @@
   "background": {
     "color": {
       "dark": "#000000",
-      "light": "#f1f5fa"
+      "light": "#ffffff"
     }
   }
 }

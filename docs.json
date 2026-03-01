@@ -5,13 +5,13 @@
   "logo": {
     "light": "/images/logo-light-icon.png",
     "dark": "/images/logo-light-icon.png",
-    "href": "https://volumnai.top/doc"
+    "href": "https://volumn.ai"
   },
   "favicon": "/images/logo-light-icon.png",
   "colors": {
-    "primary": "#0f172a",
-    "light": "#f8fafc",
-    "dark": "#0b0f19"
+    "primary": "#1f62fd",
+    "light": "#f1f5fa",
+    "dark": "#2a3763"
   },
   "navigation": {
     "languages": [
@@ -23,8 +23,18 @@
             "group": "快速开始",
             "pages": [
               "cn/quickstart",
+              "cn/account-growth",
               "cn/billing-credits",
               "cn/feature-pricing"
+            ]
+          },
+          {
+            "group": "功能指南",
+            "pages": [
+              "cn/viral-library",
+              "cn/salesbot-manual",
+              "cn/search-engine",
+              "cn/untitled-page"
             ]
           },
           {
@@ -35,11 +45,9 @@
             ]
           },
           {
-            "group": "功能指南",
+            "group": "已知问题",
             "pages": [
-              "cn/account-growth",
-              "cn/viral-library",
-              "cn/salesbot-manual"
+              "file"
             ]
           }
         ]
@@ -132,5 +140,11 @@
   },
   "styling": {
     "eyebrows": "section"
+  },
+  "background": {
+    "color": {
+      "dark": "#000000",
+      "light": "#f1f5fa"
+    }
   }
 }

@@ -3,39 +3,60 @@ title: "SalesBot Manual"
 description: "SalesBot workflow, reach/follow-up definitions, and metric explanations"
 ---
 
-# SalesBot Manual
-
-SalesBot helps you run structured multi-round DM outreach and follow-ups based on your customer lists.
+SalesBot is used for multi-round DM outreach and follow-ups based on your customer list, helping you run a structured sales conversation.
 
 ## 1. Core Workflow
 
+### Create a Task
+
 1. Select a customer list and create a task.
-2. Round 1 is sent as outreach.
-3. After the target replies, the user becomes eligible for Round 2.
-4. After Round 2 is sent, the user is counted as followed up.
+
+<Frame>
+  ![Leads List](/销售线索-客户名单.png)
+</Frame>
+
+2. After the first round is sent, it enters the outreach stage (reached customers).
+3. After the user replies, the system marks them as eligible for the second round.
+4. After the second round is sent, it enters the follow-up stage (followed up).
+
+You can click the “Console” button in the top-right corner of this page to view the runtime status of all tasks.
+
+<Frame>
+  ![SalesB Console](/SalesB控制台.png)
+</Frame>
+
+### View SalesBot Task Status
 
 ## 2. Reach / Follow-up Definitions
 
-- The **first round** is called **customer outreach**.
+We define “reach” and “follow-up” based on common sales scenarios and provide built-in metrics.
+
+<Frame>
+  ![Reach and Follow-up](/触达与跟进功能.png)
+</Frame>
+
+By comparing metrics across multiple periods and rounds, you can judge changes in product–market fit. The current-period metrics also show real conversion and purchase intent.
+
+- The **first round** is called **reach**.
 - A user is marked as:
   - **Reached**
   - **Needs follow-up**
   only after they reply to our first-round message.
-- The **second round** is called **follow-up**.
-  - A user is marked as **Followed up** only after we send the second-round reply.
+- The **second round** is called **follow-up**:
+  - After we complete the second-round reply, the user is marked as **Followed up**.
 
 ## 3. Metric Definitions
 
-- **Current task replies**: list size of the current task (target users for outreach).
-- **Current task reached**: deduplicated users in the current task who were sent successfully.
+- **Current task total replies**: size of the current task list (target users for outreach).
+- **Current task reached**: deduplicated users in the current task who were sent DMs successfully.
 - **Follow-ups**: users who entered and completed the follow-up stage in the current task.
 - **Total reached / Total follow-ups**: cumulative stats across all tasks under the account.
 
-## 4. DM Limits
+## 4. Sending Limits
 
-To protect account safety and comply with platform limits, SalesBot and AutoDM share these rules:
+To protect account safety and comply with platform limits, SalesBot and AutoDM share the following limits:
 
 - Maximum 1 DM per minute;
 - Maximum 200 DMs per 24 hours.
 
-If a limit is hit, tasks are automatically deferred. We are not liable for account restrictions caused by abuse.
+If a limit is hit, the task is automatically deferred; the platform is not responsible for account restrictions or bans caused by illegal abuse.

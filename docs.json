@@ -59,6 +59,7 @@
             "group": "Quick-start",
             "pages": [
               "en/quickstart",
+              "en/account-growth",
               "en/billing-credits",
               "en/feature-pricing"
             ]
@@ -73,9 +74,16 @@
           {
             "group": "Feature Guide",
             "pages": [
-              "en/account-growth",
               "en/viral-library",
-              "en/salesbot-manual"
+              "en/salesbot-manual",
+              "en/search-engine",
+              "en/untitled-page"
+            ]
+          },
+          {
+            "group": "Known Issues",
+            "pages": [
+              "en/login-status"
             ]
           }
         ]
@@ -87,6 +95,7 @@
             "group": "Inicio rápido",
             "pages": [
               "es/quickstart",
+              "es/account-growth",
               "es/billing-credits",
               "es/feature-pricing"
             ]
@@ -101,9 +110,16 @@
           {
             "group": "Guía de Funciones",
             "pages": [
-              "es/account-growth",
               "es/viral-library",
-              "es/salesbot-manual"
+              "es/salesbot-manual",
+              "es/search-engine",
+              "es/untitled-page"
+            ]
+          },
+          {
+            "group": "Problemas Conocidos",
+            "pages": [
+              "es/login-status"
             ]
           }
         ]
@@ -115,6 +131,7 @@
             "group": "快速開始",
             "pages": [
               "zh-Hant/quickstart",
+              "zh-Hant/account-growth",
               "zh-Hant/billing-credits",
               "zh-Hant/feature-pricing"
             ]
@@ -129,9 +146,16 @@
           {
             "group": "功能指南",
             "pages": [
-              "zh-Hant/account-growth",
               "zh-Hant/viral-library",
-              "zh-Hant/salesbot-manual"
+              "zh-Hant/salesbot-manual",
+              "zh-Hant/search-engine",
+              "zh-Hant/untitled-page"
+            ]
+          },
+          {
+            "group": "已知問題",
+            "pages": [
+              "zh-Hant/login-status"
             ]
           }
         ]

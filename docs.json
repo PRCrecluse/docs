@@ -92,6 +92,13 @@
             "pages": [
               "en/login-status"
             ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "en/faq-5m-views",
+              "en/faq-trends-templates"
+            ]
           }
         ]
       },
@@ -128,6 +135,13 @@
             "pages": [
               "es/login-status"
             ]
+          },
+          {
+            "group": "Preguntas Frecuentes",
+            "pages": [
+              "es/faq-5m-views",
+              "es/faq-trends-templates"
+            ]
           }
         ]
       },
@@ -163,6 +177,13 @@
             "group": "已知問題",
             "pages": [
               "zh-Hant/login-status"
+            ]
+          },
+          {
+            "group": "常見問題",
+            "pages": [
+              "zh-Hant/faq-5m-views",
+              "zh-Hant/faq-trends-templates"
             ]
           }
         ]

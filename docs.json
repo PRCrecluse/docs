@@ -49,6 +49,13 @@
             "pages": [
               "file"
             ]
+          },
+          {
+            "group": "常见问题",
+            "pages": [
+              "untitled-page",
+              "file-1"
+            ]
           }
         ]
       },
